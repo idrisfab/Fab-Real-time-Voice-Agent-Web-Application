@@ -1,0 +1,74 @@
+.app-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 350px 1fr;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.left-panel {
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 1.5rem;
+}
+
+.right-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.settings-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.settings-panel h2 {
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+  color: #1a1b1e;
+}
+
+.transcription-view {
+  background: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+  height: 100%;
+  min-height: 400px;
+  border: 1px solid #e9ecef;
+}
+
+.transcription-entry {
+  margin-bottom: 1rem;
+  padding: 0.75rem;
+  border-radius: 6px;
+}
+
+.transcription-entry.user {
+  background: #e7f5ff;
+  margin-right: 2rem;
+}
+
+.transcription-entry.assistant {
+  background: #f1f3f5;
+  margin-left: 2rem;
+}
+
+.timestamp {
+  display: block;
+  font-size: 0.8rem;
+  color: #868e96;
+  margin-bottom: 0.25rem;
+}
+
+header h1 {
+  font-size: 2rem;
+  color: #228be6;
+  margin-bottom: 1rem;
+}
